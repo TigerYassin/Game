@@ -4,15 +4,21 @@ export default class AddDates extends Component {
 
 render() {
   let status = "working"
-  let style = "width:100%; border: 1px solid white;"
+  const style = {
+    border : '1px solid #000000'
+  }
+  const line = {
+    width : '100px',
+    size : '0px'
+  }
 
   return (
     <div>
 
     {status}
-    <table style = {{style}}>
-      <tr>
-        <th>Firstname</th>
+    <table style = {style}>
+      <tr><hr style={line}/>
+        <th style = {style}>Firstname</th>
         <th>Lastname</th>
         <th>Age</th>
       </tr>
