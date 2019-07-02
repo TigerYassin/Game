@@ -1,0 +1,56 @@
+$color-placeholder : #A5A4AF;
+
+.input {
+  padding-left: 15px;
+  height : 6.5vh;
+  background-color: #282C34;
+  font-size: 3.3vh;
+  border : 0px solid #000000;
+  color: #F2F2F2;
+  border-bottom: 1px solid #000000
+}
+
+.veritcalLine {
+  border-left: 1px solid #000000;
+}
+
+#inputAttuid {
+  width: 12vw;
+}
+#inputName {
+  width: 20vw;
+}
+.elementText {
+  font-size: 1.9vh;
+  display: inline-block;
+}
+
+.numberValue {
+  font-size: 3vh;
+  color: #CF2A2A;
+  display: inline-block;
+  padding-right: 1.2vw;
+}
+
+.veritcal {
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  width: 1px
+}
+
+
+::placeholder  {
+  color : $color-placeholder;
+}
+
+
+:-ms-input-placeholder {
+  color : $color-placeholder;
+}
+
+
+::-ms-input-placeholder {
+  color : $color-placeholder;
+
+}
